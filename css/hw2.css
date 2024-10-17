@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 40px 7px 40px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 800px;
+  background-color: darkgray;
+  margin: auto;
+}
+
+.con2 {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  background-color: white;
+  margin: auto;
+  padding: 15px 40px 15px 40px;
+  top: 150px;
+}
+
+
+.f_name {
+  width: 45%;
+  display: inline-block;
+}
+
+.l_name {
+  width: 45%;
+  display: inline-block;
+  position: relative;
+  left: 45px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.last {
+  margin-top: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.last button {
+  position: absolute;
+  right: 0;
+}
+

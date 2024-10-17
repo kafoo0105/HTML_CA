@@ -1,0 +1,28 @@
+.container {
+  width: 100vm;
+  height: 60px;
+  background-color: bisque;
+  padding: 10px;
+  text-align: center;
+}
+
+.item, .item2-container {
+  display: inline-block; /* inline-block 요소로 변경 */
+  vertical-align: middle; /* 세로 방향 중앙 정렬 */
+}
+
+div {
+  margin-left: 10px;
+}
+
+.item {
+  float: left;
+}
+
+.item2 {
+  float: left;
+}
+
+.item2-container {
+  float: right;
+}
